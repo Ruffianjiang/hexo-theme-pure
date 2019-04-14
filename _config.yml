@@ -71,7 +71,7 @@ index_widgets:
  - archive
 
 # widget behavior
-archive_type: 'year' #'monthly'
+archive_type: 'monthly' #'monthly'
 show_count: true
 
 # Search
