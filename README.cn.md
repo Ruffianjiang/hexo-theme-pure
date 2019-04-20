@@ -374,7 +374,7 @@ markdown_it_plus:
 
 ### 文章启用mathjax
 
-```
+```markdown
 title: Hello World
 mathjax: true
 ```
