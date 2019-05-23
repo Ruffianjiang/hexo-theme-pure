@@ -25,6 +25,15 @@ menu_icons:
 # rss
 rss: /atom.xml
 
+# abbrlink config
+abbrlink:
+  alg: crc16 #support crc16(default) and crc32
+  rep: hex    #support dec(default) and hex
+
+# 更改 permalink 值
+permalink: p/:abbrlink.html
+
+
 # Site
 site:
   logo:
