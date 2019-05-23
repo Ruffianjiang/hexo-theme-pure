@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
+<html<%= config.language ? " lang=" +  typeof(config.language)== "string"?config.language.substring(0, 2):config.language[0] : ""%>>
 <%- partial('_common/head', {post: page}) %>
 <% 
 	var bodyClass = 'main-center'; 
