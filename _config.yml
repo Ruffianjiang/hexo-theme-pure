@@ -66,16 +66,19 @@ widgets:
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
- - category
- - tagcloud
- - archive
+  - category
+  - tagcloud
+  - archive
 
 # widget behavior
 archive_type: 'monthly' #'monthly'
 show_count: true
 
 # Fancybox
-fancybox: false
+fancybox: true
+
+# _hmt
+baiduHmt: false
 
 # Search
 search:
