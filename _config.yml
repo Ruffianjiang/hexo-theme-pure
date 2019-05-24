@@ -30,10 +30,6 @@ abbrlink:
   alg: crc16 #support crc16(default) and crc32
   rep: hex    #support dec(default) and hex
 
-# 更改 permalink 值,短链
-permalink: p/:abbrlink.html
-
-
 # Site
 site:
   logo:
@@ -43,7 +39,7 @@ site:
     url: ../images/logo.png
   title: Hexo # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  board: <p>欢迎交流与分享经验!</p> <img src="https://s2.ax1x.com/2019/05/25/VFodPJ.jpg"/> # 站点公告
   copyright: true # 底部版权信息
 
 # config
@@ -52,7 +48,7 @@ config:
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
   menu_highlight: true # 是否开启当前菜单高亮显示
-  thumbnail: false # enable posts thumbnail, options: true, false
+  thumbnail: true # enable posts thumbnail, options: true, false
   excerpt_link: Read More
 
 # Pagination
@@ -170,7 +166,7 @@ douban:
 # PV
 pv:
   busuanzi:
-    enable: false  # 不蒜子统计
+    enable: true  # 不蒜子统计
   cnzz:
     enable: false  # cnzz统计
     web_id: 1273905585 # cnzz id
@@ -250,7 +246,7 @@ profile:
   # My Personal Projects
   projects:
     # cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    Ruffianjiang/hexo-theme-pure: https://github.com/Ruffianjiang/hexo-theme-pure
+    Ruffianjiang/hexo-theme-pure: https://github.com/Ruffianjiang/hexo-theme-dawn
 
 # hexo-neat
 neat_enable: true
@@ -274,7 +270,7 @@ translate_title:
   translate_way: google    #google | baidu | youdao
   youdao_api_key: XXX
   youdao_keyfrom: XXX
-  is_need_proxy: true     #true | false
+  is_need_proxy: false     #true | false
   proxy_url: http://localhost:8123
 
 

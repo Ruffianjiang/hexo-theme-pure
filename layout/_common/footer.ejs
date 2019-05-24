@@ -1,50 +1,57 @@
 <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
-	<%- partial('_common/social', null, {cache: !config.relative_link}) %>
+    <%- partial('_common/social', null, {cache: !config.relative_link}) %>
     <div class="copyright">
-				<p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+        <p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
 
-    		<% if(theme.site.copyright) { %>
-        &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
+        <% if(theme.site.copyright) { %>
+            &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %>
         <% } %>
 
-				<div class="publishby">
-        	<%= __('copyright.theme_by') %> <a href="https://github.com/Ruffianjiang" target="_blank"> cofess </a><%= __('copyright.base_on') %> <a href="https://github.com/Ruffianjiang/hexo-theme-pure" target="_blank">pure</a>.
+        <div class="publishby">
+            <%= __('copyright.theme_by') %> <a href="https://github.com/Ruffianjiang" target="_blank">
+                Ruffianjiang </a><%= __('copyright.base_on') %> <a
+                    href="https://github.com/Ruffianjiang/hexo-theme-dawn" target="_blank">dawn</a>.
         </div>
 
+        <% if (theme.pv.busuanzi.enable) { %>
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv_diy" class="busuanzi">pv: <span id="busuanzi_value_site_pv">0</span> </span>
+            <span id="busuanzi_container_site_uv_diy" class="busuanzi">uv: <span id="busuanzi_value_site_uv">0</span></span>
+        <% } %>
 
-				<!--
-			  <script src="https://s19.cnzz.com/z_stat.php?id=1273905585&web_id=1273905585" language="JavaScript"></script>
-				<script type="text/javascript">
-					var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-					document.write(unescape("%3Cspan id='cnzz_stat_icon_1273905585'%3E%3C/span%3E%3Cscript src='"
-							+ cnzz_protocol
-							+ "s19.cnzz.com/z_stat.php%3Fid%3D1273905585%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));
-				</script>
+        <!--
+        <script src="https://s19.cnzz.com/z_stat.php?id=1273905585&web_id=1273905585" language="JavaScript"></script>
+        <script type="text/javascript">
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1273905585'%3E%3C/span%3E%3Cscript src='"
+                + cnzz_protocol
+                + "s19.cnzz.com/z_stat.php%3Fid%3D1273905585%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));
+        </script>
 
-				<script type="text/javascript">
-						var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-						document.write(unescape("%3Cspan id='cnzz_stat_icon_1273905585'%3E%3C/span%3E%3Cscript src='"
-						+ cnzz_protocol
-						+ "s19.cnzz.com/z_stat.php%3Fid%3D1273905585%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
-				</script>
+        <script type="text/javascript">
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1273905585'%3E%3C/span%3E%3Cscript src='"
+                + cnzz_protocol
+                + "s19.cnzz.com/z_stat.php%3Fid%3D1273905585%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+        </script>
 
-			<script type="text/javascript">
-				var cnzz_s_tag = document.createElement('script');
-				cnzz_s_tag.type = 'text/javascript';
-				cnzz_s_tag.async = true;
-				cnzz_s_tag.charset = 'utf-8';
-				cnzz_s_tag.src = 'https://s19.cnzz.com/z_stat.php%3Fid%3D1273905585%26show%3Dpic';
-				var root_s = document.getElementsByTagName('script')[0];
-				root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
-			</script>
-							-->
+        <script type="text/javascript">
+            var cnzz_s_tag = document.createElement('script');
+            cnzz_s_tag.type = 'text/javascript';
+            cnzz_s_tag.async = true;
+            cnzz_s_tag.charset = 'utf-8';
+            cnzz_s_tag.src = 'https://s19.cnzz.com/z_stat.php%3Fid%3D1273905585%26show%3Dpic';
+            var root_s = document.getElementsByTagName('script')[0];
+            root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
+        </script>
 
-			<script type="text/javascript">
-					var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-					document.write(unescape("%3Cspan id='cnzz_stat_icon_1273905585'%3E%3C/span%3E%3Cscript src='"
-								+ cnzz_protocol
-								+ "s19.cnzz.com/z_stat.php%3Fid%3D1273905585' type='text/javascript'%3E%3C/script%3E"));
-		  </script>
+        <script type="text/javascript">
+            var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+            document.write(unescape("%3Cspan id='cnzz_stat_icon_1273905585'%3E%3C/span%3E%3Cscript src='"
+                + cnzz_protocol
+                + "s19.cnzz.com/z_stat.php%3Fid%3D1273905585' type='text/javascript'%3E%3C/script%3E"));
+        </script>
+        -->
 
     </div>
 </footer>
