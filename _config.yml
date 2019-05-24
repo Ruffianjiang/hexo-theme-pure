@@ -5,7 +5,7 @@ menu:
   Categories: categories  # 分类
   Tags: tags  # 标签
   Repository: repository  # github repositories
-  Books: books  # 豆瓣书单
+ # Books: books  # 豆瓣书单
   Links: links  # 友链
   About: about  # 关于
 
@@ -30,7 +30,7 @@ abbrlink:
   alg: crc16 #support crc16(default) and crc32
   rep: hex    #support dec(default) and hex
 
-# 更改 permalink 值
+# 更改 permalink 值,短链
 permalink: p/:abbrlink.html
 
 
@@ -170,9 +170,9 @@ douban:
 # PV
 pv:
   busuanzi:
-    enable: true  # 不蒜子统计
+    enable: false  # 不蒜子统计
   cnzz:
-    enable: true  # cnzz统计
+    enable: false  # cnzz统计
     web_id: 1273905585 # cnzz id
   leancloud:
     enable: false  # leancloud统计,网站需备案
