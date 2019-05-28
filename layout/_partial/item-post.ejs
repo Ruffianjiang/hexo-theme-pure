@@ -1,6 +1,6 @@
 <% if (type == 'link'){ %>
 <a href="<%- url_for(post.path) %>" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.datem) %></time>
+  <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished"><%= date(post.date) %></time>
   <span>&nbsp;&nbsp;&nbsp;</span> <%= post.title %>
 </a>
 <% } else if (type == 'card'){ %>
