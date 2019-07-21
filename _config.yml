@@ -5,7 +5,7 @@ menu:
   Categories: categories  # 分类
   Tags: tags  # 标签
   Repository: repository  # github repositories
- # Books: books  # 豆瓣书单
+  # Books: books  # 豆瓣书单
   Links: links  # 友链
   About: about  # 关于
 
@@ -175,6 +175,12 @@ pv:
     app_id: DEolJ5tYiyE6Ul2lHPEVqnqd-gzGzoHsz # leancloud <AppID>
     app_key: X8tvrNORow4igGI26PMF3tNI # leancloud <AppKey>
 
+# Automatically Excerpt. Not recommand.
+# Please use <!-- more --> in the post to control excerpt accurately.
+auto_excerpt:
+  enable: true
+  length: 150
+
 # wordcount
 postCount:
   enable: true
@@ -267,12 +273,13 @@ neat_js:
 
 
 translate_title:
-  translate_way: google    #google | baidu | youdao
+  translate_way: baidu    #google | baidu | youdao
   youdao_api_key: XXX
   youdao_keyfrom: XXX
   is_need_proxy: false     #true | false
   proxy_url: http://localhost:8123
-
+  baidu_appid: '20190614000307344' # Your baidu_appid
+  baidu_appkey: '9HUFhPabS8VVbT_zsrWz' # Your baidu_appkey
 
 markdown_it_plus:
   highlight: true
