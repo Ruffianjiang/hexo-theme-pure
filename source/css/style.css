@@ -5868,6 +5868,11 @@ body.no-sidebar .sidebar {
   float: left;
 }
 
+.main .pager > .space {
+  line-height: 32px;
+  float: left;
+}
+
 .main .pager a {
   color: #666;
   border: 0;
@@ -5898,6 +5903,14 @@ body.no-sidebar .sidebar {
 }
 
 .main .pager .page-number + .next {
+  margin-left: 10px;
+}
+
+.main .pager .page-number + .space {
+  margin-left: 10px;
+}
+
+.main .pager .space + .page-number {
   margin-left: 10px;
 }
 
