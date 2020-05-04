@@ -36,15 +36,15 @@ site:
     enabled: true
     width: 40
     height: 40
-    url: ../images/logo.png
+    url: images/logo.png
   title: Hexo # 页面title
-  favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> <img src="https://s2.ax1x.com/2019/05/25/VFodPJ.jpg"/> # 站点公告
+  favicon: /favicon.ico
+  board: <p><img src="../images/board/board.jpg"></p> <a href="https://www.aliyun.com/minisite/goods?userCode=2txxbkg6" target="view_window" style="color:red;">阿里云专属优惠</a> # 站点公告
   copyright: true # 底部版权信息
 
 # config
 config:
-  skin: # 主题颜色 theme-black theme-blue theme-green theme-purple
+  skin: theme-black # 主题颜色 theme-black theme-blue theme-green theme-purple
   layout: main-center # 布局方式 main-left main-center main-right
   toc: true # 是否开启文章章节目录导航
   menu_highlight: true # 是否开启当前菜单高亮显示
@@ -95,11 +95,11 @@ donate:
   enable: true
   # 微信打赏
   wechatpay:
-    qrcode: images/donate/wechatpayimg.jpg
+    qrcode: images/donate/wechatpayimg.png
     title: 微信支付
   # 支付宝打赏
   alipay:
-    qrcode: images/donate/alipayimg.jpg
+    qrcode: images/donate/alipayimg.png
     title: 支付宝
 
 # Share
@@ -200,10 +200,57 @@ google_plus:
 fb_admins:
 fb_app_id:
 
-# profile
+
+# hexo-neat
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
+
+# 翻译
+translate_title:
+  translate_way: baidu    #google | baidu | youdao
+  youdao_api_key: XXX
+  youdao_keyfrom: XXX
+  is_need_proxy: false     #true | false
+  proxy_url: http://localhost:8123
+  baidu_appid: '' # Your baidu_appid
+  baidu_appkey: '' # Your baidu_appkey
+
+markdown_it_plus:
+  highlight: true
+  html: true
+  xhtmlOut: true
+  breaks: true
+  langPrefix:
+  linkify: true
+  typographer:
+  quotes: “”‘’
+  plugins:
+    - plugin:
+        name: markdown-it-katex
+        enable: true
+    - plugin:
+        name: markdown-it-mark
+        enable: true
+
+version: 1.0.0
+
+# profile 个人页-关于
 profile:
   enabled: true # Whether to show profile bar
-  avatar: images/avatar.jpg
+  avatar: images/avatar.png
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
   author: 遗失的拂晓
   author_title: JAVA Developer
@@ -251,49 +298,4 @@ profile:
       date: 2016
   # My Personal Projects
   projects:
-    # cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
     Ruffianjiang/hexo-theme-pure: https://github.com/Ruffianjiang/hexo-theme-dawn
-
-# hexo-neat
-neat_enable: true
-neat_html:
-  enable: true
-  exclude:
-neat_css:
-  enable: true
-  exclude:
-    - '*.min.css'
-neat_js:
-  enable: true
-  mangle: true
-  output:
-  compress:
-  exclude:
-    - '*.min.js'
-
-
-translate_title:
-  translate_way: baidu    #google | baidu | youdao
-  youdao_api_key: XXX
-  youdao_keyfrom: XXX
-  is_need_proxy: false     #true | false
-  proxy_url: http://localhost:8123
-  baidu_appid: '20190614000307344' # Your baidu_appid
-  baidu_appkey: '9HUFhPabS8VVbT_zsrWz' # Your baidu_appkey
-
-markdown_it_plus:
-  highlight: true
-  html: true
-  xhtmlOut: true
-  breaks: true
-  langPrefix:
-  linkify: true
-  typographer:
-  quotes: “”‘’
-  plugins:
-    - plugin:
-        name: markdown-it-katex
-        enable: true
-    - plugin:
-        name: markdown-it-mark
-        enable: true
