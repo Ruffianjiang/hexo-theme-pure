@@ -228,9 +228,8 @@ profile:
   # My Personal Works
   works:
     name:
-      link: http://www.example.com
+      link: http://www.cnblogs.com/lossingdawn/
       date: 2016
   # My Personal Projects
   projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+    Ruffianjiang/hexo-theme-dawn: https://github.com/Ruffianjiang/hexo-theme-dawn

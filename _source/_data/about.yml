@@ -1,0 +1,45 @@
+# profile 个人页-关于
+profile:
+  enabled: true # Whether to show profile bar
+  avatar: images/avatar.png
+  gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
+  author: 遗失的拂晓
+  author_title: JAVA Developer
+  author_description: 个人简介
+  location: Shanghai, China
+  follow: https://github.com/Ruffianjiang
+  # Social Links
+  social:
+    links:
+      github: https://github.com/Ruffianjiang
+      weibo: http://weibo.com/lossingdawnn
+      # twitter: https://twitter.com/iwebued
+      # facebook: /
+      # dribbble: /
+      # behance: https://www.behance.net/cofess
+      rss: atom.xml
+    link_tooltip: true # enable the social link tooltip, options: true, false
+  # My Skills
+  skills:
+    Git: ★★★★★
+    Java: ★★★★★
+    Javascript: ★★★☆☆
+    HTML+CSS: ★★★☆☆
+    Bootstrap: ★★★☆☆
+  # My Personal Links
+  links:
+    Github: https://github.com/Ruffianjiang
+    Blog: http://www.cnblogs.com/lossingdawn/
+  # My Personal Labels
+  labels:
+    - 后端
+    - 大数据开发
+    - 数据安全
+  # My Personal Works
+  works:
+    name:
+      link: http://www.cnblogs.com/lossingdawn/
+      date: 2016
+  # My Personal Projects
+  projects:
+    Ruffianjiang/hexo-theme-dawn: https://github.com/Ruffianjiang/hexo-theme-dawn

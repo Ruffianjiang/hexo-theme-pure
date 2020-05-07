@@ -1,8 +1,8 @@
-# pure
+# dawn
 
 A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofess.github.io/) | [English documentation](README.md) | [iconfont](http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html)
 
-![](screenshot/pure.png)
+![](doc/images/dawn.png)
 
 ## 特色
 
@@ -14,13 +14,13 @@ A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofes
 
 ## 主题颜色
 
-![](screenshot/pure-theme-black.png)
+![](doc/images/dawn-theme-black.png)
 
-![](screenshot/pure-theme-blue.png)
+![](doc/images/dawn-theme-blue.png)
 
-![](screenshot/pure-theme-green.png)
+![](doc/images/dawn-theme-green.png)
 
-![](screenshot/pure-theme-purple.png)
+![](doc/images/dawn-theme-purple.png)
 
 ## 页面展示
 
@@ -33,20 +33,20 @@ A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofes
 ## 安装主题
 
 ```
-git clone https://github.com/cofess/hexo-theme-pure.git themes/pure
+git clone https://github.com/cofess/hexo-theme-pure.git themes/dawn
 ```
 ## 更新主题
 
 ```
-cd themes/pure
+cd themes/dawn
 git pull
 ```
-## 启用pure主题
+## 启用dawn主题
 
-打开站点配置文件，找到theme字段，将其值更改为 pure
+打开站点配置文件，找到theme字段，将其值更改为 dawn
 
 ```
-theme: pure
+theme: dawn
 ```
 
 到此，主题安装完成。然后启动Hexo服务验证主题是否正确启用。
@@ -86,7 +86,7 @@ npm install hexo-generator-baidu-sitemap --save
 
 ### 设置语言
 
-打开站点配置文件, 将 language 设置成你所需要的语言。建议明确设置你所需要的语言,可选值对应themes\pure\languages目录下语言文件，简体中文配置如下：
+打开站点配置文件, 将 language 设置成你所需要的语言。建议明确设置你所需要的语言,可选值对应themes\dawn\languages目录下语言文件，简体中文配置如下：
 
 ```
 language: zh-CN
@@ -132,7 +132,7 @@ menu_icons:
 ### 设置个人信息
 
 ```
-头像在themes\pure\source\images 目录下替换图片即可，捐献的二维码同理。
+头像在themes\dawn\source\images 目录下替换图片即可，捐献的二维码同理。
 
 个人信息大部分都在 主题配置文件 中设置
 ```
@@ -201,7 +201,7 @@ pv:
 
 ### Github respostory
 
-复制`theme/pure/_source/` 目录下`repository`文件夹到`blog path/source/` 目录下
+复制`theme/dawn/_source/` 目录下`repository`文件夹到`blog path/source/` 目录下
 
 ```
 # Github
@@ -211,7 +211,7 @@ github:
 
 ### 豆瓣书单
 
-复制`theme/pure/_source/` 目录下`books`文件夹到`blog path/source/` 目录下
+复制`theme/dawn/_source/` 目录下`books`文件夹到`blog path/source/` 目录下
 
 ```
 # douban 豆瓣书单
@@ -223,7 +223,7 @@ douban:
 
 ### 友情链接
 
-复制`theme/pure/_source/` 目录下`links`文件夹到`blog path/source/` 目录下
+复制`theme/dawn/_source/` 目录下`links`文件夹到`blog path/source/` 目录下
 
 在 hexo 目录下的 source 文件夹内创建一个名为 _data（禁止改名）的文件夹。
 

@@ -1,8 +1,5 @@
 <head>
     <meta charset="utf-8">
-    <% if (theme.douban.user && page.layout === 'books') { %>
-        <meta name="referrer" content="never">
-    <% } %>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="renderer" content="webkit">
@@ -51,6 +48,7 @@
         <link rel="icon" href="<%- theme.site.favicon %>" type="image/x-icon">
     <% } %>
     <%- css('css/style') %>
+    <%- css('css/system-icon') %>
     <% if (page.mathjax) { %>
         <link href="//cdn.jsdelivr.net/npm/katex@0.9.0/dist/katex.min.css" rel="stylesheet">
     <% } %>

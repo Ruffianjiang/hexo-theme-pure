@@ -1,0 +1,24 @@
+# menu
+menu:
+  Home: .
+  Archives: archives  # 归档
+  Categories: categories  # 分类
+  Tags: tags  # 标签
+  Repository: repository  # github repositories
+  Bilibili: bilibili  # bilibili番剧页
+  Links: links  # 友链
+  About: about  # 关于
+
+# http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html
+# Enable/Disable menu icons
+menu_icons:
+  enable: true  # 是否启用导航菜单图标
+  home: icon-home-fill
+  archives: icon-archives-fill
+  categories: icon-folder
+  tags: icon-tags
+  repository: icon-project
+  bilibili: icon-book-fill
+  #  bilibili: icon-bilibili-dianshi-fill
+  links: icon-friendship
+  about: icon-cup-fill

@@ -1,5 +1,5 @@
 ---
-title: 标签
-layout: tags
+title: tags
+layout: menu-tags
 comments: false
 ---

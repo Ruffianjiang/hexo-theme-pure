@@ -1,40 +1,43 @@
 <div class="content">
-  <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemtype="http://schema.org/BlogPosting">
-    <%- partial('post/gallery') %>
-    <div class="article-header">
-      <% if (post.link || post.title){ %>
-        <%- partial('post/title', {class_name: 'article-title'}) %>
-      <% } %>
-      <div class="article-meta">
-        <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
-        <%- partial('post/category') %>
-        <%- partial('post/tag') %>
-        <%- partial('post/pv') %>
-        <span class="post-comment"><i class="icon icon-comment"></i> <a href="<%- url_for(post.path) %>#comments" class="article-comment-link"><%= __('article.comments') %></a></span>
-        <%- partial('post/wordcount') %>
-      </div>
-    </div>
-    <div class="article-entry marked-body" itemprop="articleBody">
-      <% if (post.excerpt && index){ %>
-        <%- post.excerpt %>
-        <% if (theme.config.excerpt_link){ %>
-          <p class="article-more-link">
-            <a href="<%- url_for(post.path) %>#more"><%= theme.config.excerpt_link %></a>
-          </p>
-        <% } %>
-      <% } else { %>
-        <%- post.content %>
-      <% } %>
-    </div>
-    <div class="article-footer">
-      <%- partial('post/copyright') %>
-    </div>
-  </article>
-  <% if (!index) { %>
-    <%- partial('post/comment') %>
-  <% } %>
+    <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope
+             itemtype="http://schema.org/BlogPosting">
+        <%- partial('post/gallery') %>
+        <div class="article-header">
+            <% if (post.link || post.title){ %>
+                <%- partial('post/title', {class_name: 'article-title'}) %>
+            <% } %>
+            <div class="article-meta">
+                <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
+                <%- partial('post/category') %>
+                <%- partial('post/tag') %>
+                <%- partial('post/pv') %>
+                <span class="post-comment"><i class="icon icon-comment"></i> <a
+                            href="<%- url_for(post.path) %>#comments"
+                            class="article-comment-link"><%= __('article.comments') %></a></span>
+                <%- partial('post/wordcount') %>
+            </div>
+        </div>
+        <div class="article-entry marked-body" itemprop="articleBody">
+            <% if (post.excerpt && index){ %>
+                <%- post.excerpt %>
+                <% if (theme.config.excerpt_link){ %>
+                    <p class="article-more-link">
+                        <a href="<%- url_for(post.path) %>#more"><%= theme.config.excerpt_link %></a>
+                    </p>
+                <% } %>
+            <% } else { %>
+                <%- post.content %>
+            <% } %>
+        </div>
+        <div class="article-footer">
+            <%- partial('post/copyright') %>
+        </div>
+    </article>
+    <% if (!index) { %>
+        <%- partial('post/comment') %>
+    <% } %>
 </div>
 <% if (!index){ %>
-  <%- partial('post/nav') %>
-  <%- partial('post/donate') %>
+    <%- partial('post/nav') %>
+    <%- partial('post/donate') %>
 <% } %>

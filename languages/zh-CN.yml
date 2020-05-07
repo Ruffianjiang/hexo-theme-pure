@@ -5,6 +5,19 @@ menu:
   plugins: 插件
   themes: 主题
   search: 搜索
+  Home: 首页
+  Archives: 归档
+  Categories: 分类
+  Tags: 标签
+  Repository: 仓库
+  Bilibili: B站
+  Links: 友链
+  About: 关于
+
+nav:
+  all: All
+  older: Older
+  newer: Newer
 
 index:
   get_started: 开始使用

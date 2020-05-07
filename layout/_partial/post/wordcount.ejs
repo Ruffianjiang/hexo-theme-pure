@@ -1,8 +1,10 @@
-<% if(theme.postCount.enable){  %>
-	<% if(theme.postCount.wordcount){  %>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount"><%= __('article.wordcount') %>: <%= wordcount(post.content) %>(<%= __('unit.word') %>)</span>
-	<% } %>
-	<% if(theme.postCount.min2read){  %>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired"><%= __('article.readcount') %>: <%= min2read(post.content) %>(<%= __('unit.time') %>)</span>
-	<% } %>
+<% if(theme.postCount.enable){ %>
+    <% if(theme.postCount.wordcount){ %>
+        <span class="post-wordcount hidden-xs"
+              itemprop="wordCount"><%= __('article.wordcount') %>: <%= wordcount(post.content) %>(<%= __('unit.word') %>)</span>
+    <% } %>
+    <% if(theme.postCount.min2read){ %>
+        <span class="post-readcount hidden-xs"
+              itemprop="timeRequired"><%= __('article.readcount') %>: <%= min2read(post.content) %>(<%= __('unit.time') %>)</span>
+    <% } %>
 <% } %>

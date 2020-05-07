@@ -5,11 +5,8 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 <%- js('js/plugin.min') %>
 <%- js('js/application') %>
 <%- partial('_script/search') %>
-<% if (page.layout === 'repository'){ %>
+<% if (page.layout === 'menu-repository'){ %>
    <%- partial('_script/repository') %>
-<% } %>
-<% if (page.layout === 'books'){ %>
-   <%- partial('_script/douban') %>
 <% } %>
 <% if (is_home() || is_post()) { %>
    <%- partial('_script/pv') %>

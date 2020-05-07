@@ -1,8 +1,8 @@
-# pure
+# dawn
 
 A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofess.github.io/) | [中文说明文档](README.cn.md) | [iconfont](http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html)
 
-![](screenshot/pure.png)
+![](doc/images/dawn.png)
 
 ## Features
 
@@ -14,13 +14,13 @@ A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofes
 
 ## Skins
 
-![](screenshot/pure-theme-black.png)
+![](doc/images/dawn-theme-black.png)
 
-![](screenshot/pure-theme-blue.png)
+![](doc/images/dawn-theme-blue.png)
 
-![](screenshot/pure-theme-green.png)
+![](doc/images/dawn-theme-green.png)
 
-![](screenshot/pure-theme-purple.png)
+![](doc/images/dawn-theme-purple.png)
 
 ## Appearance
 
@@ -31,16 +31,16 @@ A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofes
 Execute the following command under your `hexo` folder.
 
 ```
-git clone https://github.com/cofess/hexo-theme-pure.git themes/pure
+git clone https://github.com/cofess/hexo-theme-pure.git themes/dawn
 ```
-Then modify the property `theme` of the file `hexo/_config.yml`  to `theme: pure`
+Then modify the property `theme` of the file `hexo/_config.yml`  to `theme: dawn`
 
 ## Update theme
 
 Execute the following command to update theme.
 
 ```
-cd themes/pure
+cd themes/dawn
 git pull
 ```
 ## Install plugin

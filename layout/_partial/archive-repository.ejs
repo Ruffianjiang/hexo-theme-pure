@@ -1,38 +1,40 @@
 <article class="article article-repository article-type-list" itemscope="">
-  <header class="article-header">
-    <h1 itemprop="title"><%= page.title %></h1>
-    <p class="text-muted">I have <span id="repo-count">0</span> projects on Github</p>
-  </header>
-  <div class="article-body">
-    <div class="repo-content">
-      <div class="blankslate">
-        <p>正在加载...</p>
-      </div>
+    <header class="article-header">
+        <h1 itemprop="title"><%= page.title %></h1>
+        <p class="text-muted">I have <span id="repo-count">0</span> projects on Github</p>
+    </header>
+    <div class="article-body">
+        <div class="repo-content">
+            <div class="blankslate">
+                <p>正在加载...</p>
+            </div>
+        </div>
     </div>
-  </div>
 </article>
 <% if (theme.comment.type && !is_home()) { %>
-  <%- partial('post/comment', {post: page}) %>
+    <%- partial('post/comment', {post: page}) %>
 <% } %>
 
 <!--Github项模版-->
 <script type="text/template" id="list-template">
-  <li class="col-sm-6 col-md-6 col-lg-4">
-    <div class="repo hover-shadow hover-grow">
-      <div class="repo-image geopattern" data-pattern-id="{%=name%}"></div>
-      <h3 class="repo-title"><a href="{%=clone_url%}" target="_blank" rel="external nofollow noopener noreferrer">{%=full_name%}</a></h3>
-      <p class="repo-body">{%=description%}</p>
-      <div class="repo-meta">
-        <span class="meta meta-type pull-left" aria-label="{%=language%} project">{%=language%}</span>
-        <span class="meta meta-star" aria-label="{%=stargazers_count%} stars"><i class="icon icon-star-fill"></i> {%=stargazers_count%}</span>
-        <span class="meta meta-fork" aria-label="{%=forks_count%} forks"><i class="icon icon-code-fork"></i> {%=forks_count%}</span>
-        <span class="meta meta-last-updated" aria-label="最后更新时间：{%=updated_at%}">
+    <li class="col-sm-6 col-md-6 col-lg-4">
+        <div class="repo hover-shadow hover-grow">
+            <div class="repo-image geopattern" data-pattern-id="{%=name%}"></div>
+            <h3 class="repo-title"><a href="{%=clone_url%}" target="_blank" rel="external nofollow noopener noreferrer">{%=full_name%}</a>
+            </h3>
+            <p class="repo-body">{%=description%}</p>
+            <div class="repo-meta">
+                <span class="meta meta-type pull-left" aria-label="{%=language%} project">{%=language%}</span>
+                <span class="meta meta-star" aria-label="{%=stargazers_count%} stars"><i
+                            class="icon icon-star-fill"></i> {%=stargazers_count%}</span>
+                <span class="meta meta-fork" aria-label="{%=forks_count%} forks"><i class="icon icon-code-fork"></i> {%=forks_count%}</span>
+                <span class="meta meta-last-updated" aria-label="最后更新时间：{%=updated_at%}">
         <i class="icon icon-clock"></i> <time datetime="{%=updated_at%}">{%=updated_at%}</time></span>
-      </div>
-    </div>
-  </li>
+            </div>
+        </div>
+    </li>
 </script>
 <!--获取失败模版-->
 <script type="text/template" id="error-template">
-  <h3>加载失败</h3><p>请刷新或稍后再试...</p>
+    <h3>加载失败</h3><p>请刷新或稍后再试...</p>
 </script>
