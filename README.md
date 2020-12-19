@@ -1,6 +1,6 @@
 # dawn
 
-A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofess.github.io/) | [中文说明文档](README.cn.md) | [iconfont](http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html)
+A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://Ruffianjiang.github.io/) | [中文说明文档](README.cn.md) | [iconfont](http://blog.Ruffianjiang.com/hexo-theme-pure/iconfont/demo_fontclass.html)
 
 ![](doc/images/dawn.png)
 
@@ -24,14 +24,14 @@ A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofes
 
 ## Appearance
 
-[Home](http://cofess.github.io/) | [Archives](http://cofess.github.io/archives/) | [Categories](http://cofess.github.io/categories/) | [Tags](http://cofess.github.io/tags/) | [Repository](http://cofess.github.io/repository/) | [Books](http://cofess.github.io/books/) | [Links](http://cofess.github.io/links/) | [About](http://cofess.github.io/about/)
+[Home](http://Ruffianjiang.github.io/) | [Archives](http://Ruffianjiang.github.io/archives/) | [Categories](http://Ruffianjiang.github.io/categories/) | [Tags](http://Ruffianjiang.github.io/tags/) | [Repository](http://Ruffianjiang.github.io/repository/) | [Books](http://Ruffianjiang.github.io/books/) | [Links](http://Ruffianjiang.github.io/links/) | [About](http://Ruffianjiang.github.io/about/)
 
 ## Install theme
 
 Execute the following command under your `hexo` folder.
 
 ```
-git clone https://github.com/cofess/hexo-theme-pure.git themes/dawn
+git clone https://github.com/Ruffianjiang/hexo-theme-dawn.git themes/dawn
 ```
 Then modify the property `theme` of the file `hexo/_config.yml`  to `theme: dawn`
 

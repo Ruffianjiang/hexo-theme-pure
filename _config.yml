@@ -170,7 +170,7 @@ auto_excerpt:
 
 # wordcount
 postCount:
-  enable: true
+  enable: false
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计
 
