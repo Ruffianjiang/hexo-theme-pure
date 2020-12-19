@@ -1,5 +1,9 @@
 # dawn
 
+This project is no longer maintained, new project address: [https://github.com/Ruffianjiang/hexo-theme-dawn](https://github.com/Ruffianjiang/hexo-theme-dawn)
+
+
+
 A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://Ruffianjiang.github.io/) | [中文说明文档](README.cn.md) | [iconfont](http://blog.Ruffianjiang.com/hexo-theme-pure/iconfont/demo_fontclass.html)
 
 ![](doc/images/dawn.png)
