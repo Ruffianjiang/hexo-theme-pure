@@ -1,5 +1,8 @@
 # dawn
 
+此项目地址不再维护，新维护地址: [https://github.com/Ruffianjiang/hexo-theme-dawn](https://github.com/Ruffianjiang/hexo-theme-dawn)
+
+
 A brand new default theme for [[Hexo](https://hexo.io)].  [Preview](http://cofess.github.io/) | [English documentation](README.md) | [iconfont](http://blog.cofess.com/hexo-theme-pure/iconfont/demo_fontclass.html)
 
 ![](doc/images/dawn.png)
